@@ -190,8 +190,8 @@ SWI_SERVICES = {
     # TZA Tanzania
     'TZA:en': {'country': 'TZA', 'lang': 'en', 'title': 'TZA - Tanzania, United Republic of (en)', 'url': 'http://tma.meteo.go.tz:8080/feeds/en/alerts/rss.xml', 'hdr_feed': '', 'hdr_atom': ''},
 
-    # USA
-    'US1:en': {'country': 'USA', 'lang': 'en', 'title': 'USA - United States of America (en)', 'url': 'https://alerts.weather.gov/cap/us.php?x=0', 'hdr_feed': {'Accept': 'application/atom+xml'}, 'hdr_atom': {'Accept': 'application/cap+xml'}},
+    # USA https://alerts.weather.gov/cap/wwaatmget.php?x=VTC023&y=0 https://alerts.weather.gov/cap/us.php?x=0
+    'US1:en': {'country': 'USA', 'lang': 'en', 'title': 'USA - United States of America (en)', 'url': 'https://alerts.weather.gov/cap/wwaatmget.php?x=VTC023&y=0', 'hdr_feed': {'Accept': 'application/atom+xml'}, 'hdr_atom': {'Accept': 'application/cap+xml'}},
     'US2:en': {'country': 'USA', 'lang': 'en', 'title': 'USA - USGS Volcano (en)', 'url': 'https://volcanoes.usgs.gov/hans2/cap/rss/', 'hdr_feed': {'Accept': 'application/atom+xml'}, 'hdr_atom': {'Accept': 'application/cap+xml'}},
     'US3:en': {'country': 'USA', 'lang': 'en', 'title': 'USA - USGS Volcano (en)', 'url': 'http://feeds.enviroflash.info/cap/aggregate.xml', 'hdr_feed': {'Accept': 'application/atom+xml'}, 'hdr_atom': {'Accept': 'application/cap+xml'}},
 
