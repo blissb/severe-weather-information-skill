@@ -2,6 +2,7 @@
 Checks your national weather service and notifies you when there are alerts for your region
 
 ## About
+I could not get the original version to work - it was not filtering properly. I've modified this version to work for me only in my location.
 The severe weather information skills can connect to many weather alerting services (as long as they are implementing the [Common Alert Protocol](https://en.wikipedia.org/wiki/Common_Alerting_Protocol))
 
 Among them many from following lists:
