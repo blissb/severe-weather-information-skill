@@ -6,7 +6,7 @@ skillMetadata:
         - name: service
           type: select
           label: Service
-          options: "Austria (de,en)|AUT;Argentina (es)|ARG:es;Belgium (nl,fr)|BEL;Canada (en,fr)|CAN;Denmark (en)|DNK:en;Germany (de,en)|DEU;Finland (en,fi,sv)|FIN;France (en,fr)|FRA;Great Britian (en)|GBR:en;Greece (en,el)|GRC;Italy (en,it)|ITA;Spain(en,es)|ES1;Sweden (en,sv)|SWE;U.S. of America (en)|US1:en;ZZZ - Custom configuration|ZZZ:zz"
+          options: "U.S. of America (en)|US1:en;ZZZ - Custom configuration|ZZZ:zz"
           value: "US1:en"
         - name: language
           type: text
@@ -31,7 +31,7 @@ skillMetadata:
         - name: location_label
           type: label
           label: >
-            <p>
+            <p> CUSTOM VERSION - Filtering should be off.
             Filtering by location is highly recommended as weather services might provide lots of warnings for areas far away from your location.
             "Mycroft device" will use longitude/latitude from the device configuration.
             "Area description" is very often the name of a city/county/region - don't forget to enter description in field "Location (description)"
@@ -41,7 +41,7 @@ skillMetadata:
           type: select
           label: Location (filter)
           options: "Mycroft device|geoloc;Area description|areadesc;Geo-Code|geocode;None|none"
-          value: "geoloc"
+          value: "none"
         - name: location_text
           type: text
           label: Location (description)
