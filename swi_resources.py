@@ -24,5 +24,5 @@ SWI_SERVICES = {
     'US3:en': {'country': 'USA', 'lang': 'en', 'title': 'USA - USGS Volcano (en)', 'url': 'http://feeds.enviroflash.info/cap/aggregate.xml', 'hdr_feed': {'Accept': 'application/atom+xml'}, 'hdr_atom': {'Accept': 'application/cap+xml'}},
 
     # ZZZ Custom
-    'ZZZ:zz': {'country': 'ZZ', 'lang': 'zz', 'title': 'Custom configuration', 'url': 'custom', 'hdr_feed': '', 'hdr_atom': ''}
+    'ZZZ:zz': {'country': 'ZZ', 'lang': 'zz', 'title': 'Custom configuration', 'url': 'custom', 'hdr_feed': {'Accept': 'application/atom+xml'}, 'hdr_atom': {'Accept': 'application/cap+xml'}}
 }
