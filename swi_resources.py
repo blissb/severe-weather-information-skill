@@ -19,7 +19,7 @@ SWI_SERVICES = {
 
     # USA original url value: https://alerts.weather.gov/cap/us.php?x=0 new url value:https://alerts.weather.gov/cap/wwaatmget.php?x=VTC023&y=1
     # US1 updated to only my area since nothing else seemed to work...
-    'US1:en': {'country': 'USA', 'lang': 'en', 'title': 'USA - United States of America (en)', 'url': 'https://alerts.weather.gov/cap/wwaatmget.php?x=VTC023&y=0', 'hdr_feed': {'Accept': 'application/atom+xml'}, 'hdr_atom': {'Accept': 'application/cap+xml'}},
+    'US1:en': {'country': 'USA', 'lang': 'en', 'title': 'USA - United States of America (en)', 'url': 'https://alerts.weather.gov/cap/us.php?x=0', 'hdr_feed': {'Accept': 'application/atom+xml'}, 'hdr_atom': {'Accept': 'application/cap+xml'}},
     'US2:en': {'country': 'USA', 'lang': 'en', 'title': 'USA - USGS Volcano (en)', 'url': 'https://volcanoes.usgs.gov/hans2/cap/rss/', 'hdr_feed': {'Accept': 'application/atom+xml'}, 'hdr_atom': {'Accept': 'application/cap+xml'}},
     'US3:en': {'country': 'USA', 'lang': 'en', 'title': 'USA - USGS Volcano (en)', 'url': 'http://feeds.enviroflash.info/cap/aggregate.xml', 'hdr_feed': {'Accept': 'application/atom+xml'}, 'hdr_atom': {'Accept': 'application/cap+xml'}},
 
